@@ -17,6 +17,10 @@ def detectpyver():
         print("python version is 3.9")
     elif x == "3.8":
         print("python version is 3.8")
+    elif x == "3.7":
+        print("python version is 3.7")
+    elif x == "3.6":
+        print("python version is 3.6 and is depreciated")
     else:
         print("not sure what version it is", file=sys.stderr)
 
