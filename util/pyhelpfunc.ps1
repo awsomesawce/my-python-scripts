@@ -1,5 +1,14 @@
-function pyhelp {
+#!/usr/bin/env -S pwsh -noprofile
+# Useful utilities for working with python in Powershell
 
+function pyhelp {
+<#
+.Description
+Print python documentation to the powershell console
+.NOTES
+Prints the same information as python's `pydoc` utility script.
+TODO: Test for whether `pydoc` is in PATH and print location of it if true.
+#>
 param(
     [string]
     $s
