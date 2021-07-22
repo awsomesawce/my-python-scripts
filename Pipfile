@@ -5,8 +5,11 @@ name = "pypi"
 
 [packages]
 jupyter-console = "*"
+requests = "*"
+pipenv = "*"
 
 [dev-packages]
+pyflakes = "*"
 
 [requires]
 python_version = "3.8"
