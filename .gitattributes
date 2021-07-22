@@ -3,7 +3,7 @@
 # License: BSD 2-Clause
 
 ### Globally prefer lf line endings ###
-*       text=lf
+*       text eol=lf
 
 # Begin Python gitattributes file {{{
 # Basic .gitattributes for a python repo.
