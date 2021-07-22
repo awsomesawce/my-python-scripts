@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+"""Simple grep using python code
+Argparse import is not needed in this case
+"""
 
 import os
 import sys

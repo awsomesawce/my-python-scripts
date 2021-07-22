@@ -10,6 +10,9 @@ pipenv = "*"
 
 [dev-packages]
 pyflakes = "*"
+flake8 = "*"
+pylint = "*"
+mypy = "*"
 
 [requires]
 python_version = "3.8"
