@@ -15,16 +15,12 @@ from glob import glob
 #import json
 #import re
 
-if os.name == 'nt':
-    print("This is windows nt platform.\nUse \"\\\\\" as path separator.")
-    print(f"""
-You can actually use os.sep to get the pathname separators like so:
-{os.sep}: it prints as one backslash but is actually two.
-""")
-else:
-    print("This is not windows, so most likely we will be using " +
-          os.sep + " as path seperators")
-
+def getplatform():
+    if os.name == 'nt':
+        print("This is windows nt platform.\nUse \"\\\\\" as path separator.")
+    else:
+        print("This is not windows, so most likely we will be using " +
+              os.sep + " as path seperators")
 
 
 def changetohome():
