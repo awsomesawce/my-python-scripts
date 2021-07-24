@@ -1,5 +1,6 @@
 # Personal GitIgnore stuff {{{
 util/test_output/*
+ignore
 # }}}
 
 # Byte-compiled / optimized / DLL files
