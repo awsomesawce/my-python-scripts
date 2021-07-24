@@ -6,9 +6,9 @@ name = "pypi"
 [packages]
 jupyter-console = "*"
 requests = "*"
-pipenv = "*"
 
 [dev-packages]
+pipenv = "*"
 pyflakes = "*"
 flake8 = "*"
 pylint = "*"
