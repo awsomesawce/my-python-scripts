@@ -20,6 +20,7 @@ def dlfile(urlname=None):
     Download file from url.
 
     Example:
+    downloaded = dlfile("https://api.github.com")
     
     """
     rq = req.urlopen(urlname)
@@ -29,7 +30,13 @@ def dlfile(urlname=None):
         print("there was a problem")
 
 def convrequestedfile(urlname=None):
-    """Convert requested file back to string like object"""
+    """Convert requested file back to string like object
+    Example:
+    decodedrequest = convrequestedfile('https://httpbin.org/get')
+
+    Returns a string that is already decoded
+    See `writetofile` for a function to write the string to a file
+    """
     result = req.urlopen(urlname)
     if result.code == 200:
         readed = result.read() # TODO: Find a better word than "readed"
@@ -42,21 +49,17 @@ def writetofile(filename, string_to_write):
     """Takes a string and writes to a filename
     TODO: Figure out why os.path.exists is not WORKING
 
-    Example:
+    Example: writetofile("myfile.html", htmlbuffer)
     """
     if os.path.exists(filename):
         return f"Error: {filename} exists already"
     else:
-        fd = open(filename, "w")
-        fd.write(string_to_write)
-        fd.close()
-##
-##string1 = convrequestedfile('https://duckduckgo.com')
-##writetofile("testfile1.html", string1)
-#print(f"Status code is {x.code}")
-
-#y = x.read() # This is returning a bytes-like object even using str()
-#z = y.decode() # This decodes the bytes-like object into a string!  Yay!
-
+        with open(filename, "w", encoding='utf8') as fd:
+            fd.write(string_to_write)
+            fd.close()
+            
+__example__ = """
+Check docstrings
+"""
 
 "Now I just need to find the correct stdlib module that allows writing to the filesystem."
