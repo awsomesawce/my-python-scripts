@@ -4,8 +4,8 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-jupyter-console = "*"
 requests = "*"
+jinja2 = "*"
 
 [dev-packages]
 pipenv = "*"
@@ -13,6 +13,7 @@ pyflakes = "*"
 flake8 = "*"
 pylint = "*"
 mypy = "*"
+black = "*"
 
 [requires]
-python_version = "3.8"
+python_version = "3.9"

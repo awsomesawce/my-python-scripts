@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module internet_request</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>internet_request</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:c%3A/users/carl/gitstuff/my-python-scripts/util/internet_request.py">c:/users/carl/gitstuff/my-python-scripts/util/internet_request.py</a></font></td></tr></table>
+    <p><tt>An&nbsp;attempt&nbsp;to&nbsp;use&nbsp;python&nbsp;stdlib&nbsp;to&nbsp;request&nbsp;a&nbsp;file&nbsp;on&nbsp;the&nbsp;web<br>
+using&nbsp;urllib.request.urlopen()&nbsp;and&nbsp;write&nbsp;the&nbsp;data&nbsp;to&nbsp;a&nbsp;file.<br>
+&nbsp;<br>
+Try&nbsp;using&nbsp;Pathlib&nbsp;for&nbsp;interacting&nbsp;with&nbsp;filesystem.</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="os.html">os</a><br>
+</td><td width="25%" valign=top><a href="urllib.request.html">urllib.request</a><br>
+</td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-convrequestedfile"><strong>convrequestedfile</strong></a>(urlname=None)</dt><dd><tt>Convert&nbsp;requested&nbsp;file&nbsp;back&nbsp;to&nbsp;string&nbsp;like&nbsp;object<br>
+:example:&nbsp;decodedrequest&nbsp;=&nbsp;<a href="#-convrequestedfile">convrequestedfile</a>('<a href="https://httpbin.org/get">https://httpbin.org/get</a>')<br>
+&nbsp;<br>
+:returns:&nbsp;a&nbsp;string&nbsp;that&nbsp;is&nbsp;already&nbsp;decoded<br>
+See&nbsp;``writetofile``&nbsp;for&nbsp;a&nbsp;function&nbsp;to&nbsp;write&nbsp;the&nbsp;string&nbsp;to&nbsp;a&nbsp;file</tt></dd></dl>
+ <dl><dt><a name="-dlfile"><strong>dlfile</strong></a>(urlname=None)</dt><dd><tt>Download&nbsp;file&nbsp;from&nbsp;url.<br>
+&nbsp;<br>
+:param&nbsp;urlname:&nbsp;string&nbsp;of&nbsp;the&nbsp;url&nbsp;in&nbsp;question<br>
+&nbsp;<br>
+:returns:&nbsp;a&nbsp;urlopen&nbsp;object<br>
+&nbsp;<br>
+Example:<br>
+downloaded&nbsp;=&nbsp;<a href="#-dlfile">dlfile</a>("<a href="https://api.github.com">https://api.github.com</a>")</tt></dd></dl>
+ <dl><dt><a name="-writetofile"><strong>writetofile</strong></a>(filename, string_to_write)</dt><dd><tt>Takes&nbsp;a&nbsp;string&nbsp;and&nbsp;writes&nbsp;to&nbsp;a&nbsp;filename<br>
+TODO:&nbsp;Figure&nbsp;out&nbsp;why&nbsp;os.path.exists&nbsp;is&nbsp;not&nbsp;WORKING<br>
+&nbsp;<br>
+Example:&nbsp;<a href="#-writetofile">writetofile</a>("myfile.html",&nbsp;htmlbuffer)</tt></dd></dl>
+</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>__comments__</strong> = 'Now I just need to find the correct stdlib module that allows writing to the filesystem.'<br>
+<strong>__example__</strong> = '<font color="#c040c0">\n</font>Check docstrings for examples<font color="#c040c0">\n</font>'<br>
+<strong>__license__</strong> = 'MIT'</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#7799ee">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Author</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#7799ee"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">Carl&nbsp;C</td></tr></table>
+</body></html>
