@@ -1,0 +1,27 @@
+{
+  "name": "my-python-scripts",
+  "version": "1.0.0",
+  "description": "Simple python scripts for experimenting with different standard library modules and filesystem modules like shutil.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awsomesawce/my-python-scripts.git"
+  },
+  "keywords": [],
+  "author": "Carl C. (https://github.com/awsomesawce)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awsomesawce/my-python-scripts/issues"
+  },
+  "homepage": "https://github.com/awsomesawce/my-python-scripts#readme",
+  "dependencies": {
+    "highlight.js": "^11.2.0",
+    "jsonfile": "^6.1.0"
+  }
+}

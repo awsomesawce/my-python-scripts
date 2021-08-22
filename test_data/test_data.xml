@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:re="http://purl.org/atompub/rank/1.0">
+    <title type="text">Install VSCode in a specific folder - Stack Overflow</title>
+    <link rel="self" href="https://stackoverflow.com/feeds/question/30013157" type="application/atom+xml" />
+    <link rel="alternate" href="https://stackoverflow.com/q/30013157" type="text/html" />
+    <subtitle>most recent 30 from stackoverflow.com</subtitle>
+    <updated>2021-08-21T21:42:45Z</updated>
+    <id>https://stackoverflow.com/feeds/question/30013157</id>
+    <creativeCommons:license>https://creativecommons.org/licenses/by-sa/4.0/rdf</creativeCommons:license> 
+    <entry>
+        <id>https://stackoverflow.com/q/30013157</id>
+        <re:rank scheme="https://stackoverflow.com">2</re:rank>
+        <title type="text">Install VSCode in a specific folder</title>
+            <category scheme="https://stackoverflow.com/tags" term="visual-studio-code" />
+        <author>
+            <name>Kevin Jensen Petersen</name>
+            <uri>https://stackoverflow.com/users/1692412</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/30013157/install-vscode-in-a-specific-folder" />
+        <published>2015-05-03T11:12:56Z</published>
+        <updated>2021-02-20T22:20:31Z</updated>
+        <summary type="html">
+            &lt;p&gt;I just downloaded the Visual Studio Code App from &lt;a href=&quot;https://code.visualstudio.com/&quot; rel=&quot;nofollow&quot;&gt;https://code.visualstudio.com/&lt;/a&gt; and when I tried to install it, it simply just installed it by itself, without the option to change the installation path.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;I have an external harddrive, which is where I want the IDE to be placed instead of the Local Harddrive. How can I change this?&lt;/p&gt;&#xA;
+        </summary>
+    </entry>
+            <entry>
+        <id>https://stackoverflow.com/questions/30013157/-/30028944#30028944</id>
+        <re:rank scheme="https://stackoverflow.com">1</re:rank>
+        <title type="text">Answer by Kevin Jensen Petersen for Install VSCode in a specific folder</title>
+        <author>
+            <name>Kevin Jensen Petersen</name>
+            <uri>https://stackoverflow.com/users/1692412</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/30013157/install-vscode-in-a-specific-folder/30028944#30028944" />
+        <published>2015-05-04T11:24:58Z</published>
+        <updated>2015-05-04T11:24:58Z</updated>
+        <summary type="html">&lt;p&gt;&lt;strong&gt;Full credit to &lt;a href=&quot;https://stackoverflow.com/users/17034/hans-passant&quot;&gt;Hans Passant&lt;/a&gt; for giving the following working solution as a comment.&lt;/strong&gt;&lt;/p&gt;&#xA;&#xA;&lt;p&gt;The installer does very little beyond copying the files, it just creates some Explorer context menu shortcuts (&quot;Open with Code&quot;). Otherwise following Chromium conventions and copying itself to c:\Users\yourname\AppData\Local\Code\app-0.1.0 so it can update itself without you noticing. Boo. So high odds that simply moving that folder to the other drive works just fine, put it anywhere and create a shortcut to Code.exe. If you still want the context menu entry to work then use Regedit and search for &quot;code\app-0.1.0&quot;.&lt;/p&gt;&#xA;</summary>
+    </entry>
+            <entry>
+        <id>https://stackoverflow.com/questions/30013157/-/66297137#66297137</id>
+        <re:rank scheme="https://stackoverflow.com">1</re:rank>
+        <title type="text">Answer by qaisjp for Install VSCode in a specific folder</title>
+        <author>
+            <name>qaisjp</name>
+            <uri>https://stackoverflow.com/users/1517394</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/30013157/install-vscode-in-a-specific-folder/66297137#66297137" />
+        <published>2021-02-20T22:20:31Z</published>
+        <updated>2021-02-20T22:20:31Z</updated>
+        <summary type="html">&lt;p&gt;On the &lt;a href=&quot;https://code.visualstudio.com/download&quot; rel=&quot;nofollow noreferrer&quot;&gt;VSCode download page&lt;/a&gt; select &amp;quot;System Installer&amp;quot; instead of &amp;quot;User Installer&amp;quot;. The System installer will prompt you for the install location.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&quot;https://i.stack.imgur.com/7aXIr.png&quot; alt=&quot;Screenshot of &amp;quot;System Installer&amp;quot; link&quot; /&gt;&lt;/p&gt;&#xA;</summary>
+    </entry>
+</feed>

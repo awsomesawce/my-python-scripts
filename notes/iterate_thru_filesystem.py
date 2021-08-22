@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# Using python to iterate thru file system objects
+"""Using python to iterate thru file system objects"""
 
 import os
 import sys
@@ -21,7 +21,7 @@ ls('..')
 
 file_path = funWithPaths("./Conda.md")
 
-##print(file_path)
+print(file_path.absolute())
 
 ##def changeSysPath(p, options):
 ##    return [p, options]
