@@ -1,0 +1,38 @@
+name: pyscriptenv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - sqlite
+  - requests
+  - mypy
+  - black
+  - pylint
+  - django
+  - flask
+  - pygithub
+  - pymongo
+  - flake8
+  - jupyterlab
+  - jupyterlab-git
+  - cookiecutter
+  - regex
+  - jupyter
+  - pyflakes
+  - pyyaml
+  - ujson
+  - cytoolz
+  - aiohttp
+  - bitarray
+  - llist
+  - numpy
+  - pandas
+  - cython
+  - more-itertools
+  - sphinx
+  - beautifulsoup4
+  - pillow
+  - mkdocs
+  - bokeh
+  - twisted
+prefix: C:\Users\Carl\miniconda3\envs\pyscriptenv
