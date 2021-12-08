@@ -35,4 +35,11 @@ dependencies:
   - mkdocs
   - bokeh
   - twisted
+  - recommonmark
+  - platformdirs
+  - tox
+  - pytest
+  - mako
+  - mongoengine
+  - jsoncpp
 prefix: C:\Users\Carl\miniconda3\envs\pyscriptenv

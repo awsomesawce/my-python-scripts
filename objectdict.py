@@ -29,6 +29,7 @@ class ObjectDict(Dict[str, Any]):
         self[name] = value
 
     def printmyjson(self):
+        """Print a json string representation of self"""
         return json.dumps(self)
 
     @staticmethod
