@@ -1,3 +1,8 @@
 {
-    "python.pythonPath": "/home/carlc/miniconda3/bin/python"
+    "python.pythonPath": "C:\\Users\\Carl\\miniconda3\\envs\\pyscriptenv\\python.exe",
+    "python.formatting.provider": "black",
+    "python.linting.enabled": true,
+    "python.languageServer": "Pylance",
+    "python.linting.flake8Enabled": true,
+    "vsintellicode.python.completionsEnabled": true
 }
