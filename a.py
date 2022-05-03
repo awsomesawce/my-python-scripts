@@ -27,8 +27,9 @@ print(f"miniconda3 = {repr(miniconda3)}")
 
 
 ##
-##mingw = "D:\\MSYS2\\mingw64\\lib\\python3.9\\Tools"
-##msys = "D:\\MSYS2\\usr\\lib\\python3.9"
+##mingw = Path("D:\\MSYS2\\mingw64\\lib\\python3.9\\Tools")
+##msys = Path("D:\\MSYS2\\usr\\lib\\python3.9")
+current_msys = Path("C:\\msys64")
 
 ##
 onedrive = PurePath(os.path.expandvars("$OneDrive"))
